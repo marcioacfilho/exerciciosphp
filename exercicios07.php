@@ -9,11 +9,26 @@
 <body>
 <?php /*Faça uma página Web que pergunte em que turno você estuda. Peça para digitar M-matutino ou V-vespertino ou N- Nortuno. Imprima a mensagem "Bom Dia!","Boa tarde!" ou "Boa Noite!" ou Valor invalido!", conforme o caso*/ ?>
 <form action="" method="get">
-    Qual turono você estuda : <input type="text" name=""><br>
+    turno : <input type="turno" name=""><br>
 
     <button type="submit">Testar</button>
     </form>
     <?php 
+$turno = $_GET['turno'];
+
+if ($turno == "M")
+    echo "$turno matutino";
+
+    else if ($turno == "V");
+    echo "$turno vespertino";
+
+    else if ($turno == "N");
+    echo "$turno nortuno";
+
+    else ($turno ==)
+
+
+
 
 
 ?>
